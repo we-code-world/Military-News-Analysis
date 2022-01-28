@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="DAO.KeySentenceMapper">
+
+    <!--新建一个管理员-->
+    <insert id="save" parameterType="Entity.KeySentence">
+      insert into military_events.KeySentence(SentenceID,newsID,SentenceNum,matchTime,matchLoc,weaponName,EventTrigger)
+      values (null,#{newsID},#{SentenceNum},#{matchTime},#{matchLoc},#{weaponName},#{EventTrigger});
+   </insert>
+
+    <!--根据新闻ID和句编号更新关键句表-->
+    <update id="updateByNewsAndNum" parameterType="Entity.KeySentence">
+        update military_events.KeySentence
+        set matchTime=#{matchTime},matchLoc=#{matchLoc},weaponName=#{weaponName},EventTrigger=#{EventTrigger}
+        where NewsID = #{NewsID} and SentenceNum = #{SentenceNum};
+    </update>
+
+    <!--根据ID更新关键句表-->
+    <update id="updateByID" parameterType="Entity.KeySentence">
+        update military_events.KeySentence
+        set matchTime=#{matchTime},matchLoc=#{matchLoc},weaponName=#{weaponName},EventTrigger=#{EventTrigger}
+        where SentenceID = #{SentenceID};
+    </update>
+
+    <!--根据ID查找一个事件-->
+    <select id="findByID" resultType="Entity.KeySentence">
+      SELECT * from military_events.KeySentence
+      where SentenceID = #{id};
+   </select>
+
+    <!--//根据ID删除一个管理员-->
+    <delete id="delete" parameterType="int">
+      delete from military_events.KeySentence where SentenceID=#{id};
+   </delete>
+
+    <!--通过新闻ID和关键句在新闻中的序号查找所有事件-->
+    <select id="findAllByNewsIDAndNum" resultType="Entity.KeySentence">
+      SELECT * from military_events.KeySentence
+      where NewsID = #{NewsID} and SentenceNum = #{SentenceNum};
+   </select>
+
+    <!--通过新闻ID查找所有管理员-->
+    <select id="findAllByNewsID" resultType="Entity.KeySentence">
+      SELECT * from military_events.KeySentence
+      where NewsID = #{NewsID};
+   </select>
+
+    <!--查找所有管理员-->
+    <select id="findAll" resultType="Entity.KeySentence">
+      SELECT * from military_events.KeySentence
+   </select>
+
+</mapper>

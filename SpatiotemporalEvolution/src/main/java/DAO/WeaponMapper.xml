@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="DAO.WeaponMapper">
+
+    <!--新建一个武器-->
+    <insert id="save" parameterType="Entity.Weapon">
+      insert into military_events.Weapons(weaponID,weaponName,weaponClass,weaponSClass,weaponCountry)
+      values (null,#{weaponName},#{weaponClass},#{weaponSClass},#{weaponCountry});
+   </insert>
+
+    <!--//根据ID删除一个武器-->
+    <delete id="delete" parameterType="int">
+      delete from military_events.Weapons where weaponID=#{weaponID};
+   </delete>
+
+    <!--//根据ID查找一个武器-->
+    <select id="findByID" parameterType="int" resultType="Entity.Weapon">
+      SELECT * from military_events.Weapons where weaponID=#{weaponID};
+   </select>
+
+    <!--查找全部武器-->
+    <select id="findAll" resultType="Entity.Weapon">
+      SELECT * from military_events.Weapons
+   </select>
+    <!--查找全部武器-->
+    <select id="findAllByWeapon" resultType="Entity.Weapon">
+      SELECT * from military_events.Weapons
+      where weaponName = "%${Weapon}%";
+   </select>
+    <!--查找全部武器-->
+    <select id="findAllBySClass" resultType="Entity.Weapon">
+      SELECT * from military_events.Weapons
+      where weaponSClass = #{SClass};
+   </select>
+    <!--查找所有大类别-->
+    <select id="findAllClass" resultType="String">
+      SELECT weaponClass from military_events.Weapons
+      WHERE weaponClass not like ''
+      GROUP BY weaponClass
+   </select>
+    <!--查找所有小类别-->
+    <select id="findAllSClass" resultType="String">
+      SELECT weaponSClass from military_events.Weapons
+      WHERE weaponClass = #{weaponClass} And weaponSClass not like ''
+      GROUP BY weaponSClass
+   </select>
+    <!--查找所有武器-->
+    <select id="findAllweapons" resultType="String">
+      SELECT weaponName from military_events.Weapons
+      WHERE weaponSClass = #{weaponSClass}
+   </select>
+
+</mapper>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="DAO.AdministratorMapper">
+
+    <!--新建一个管理员-->
+    <insert id="save" parameterType="Entity.Administrator">
+      insert into military_events.Administrator(Userid,userName,account,password)
+      values (null, #{userName},#{account}, #{password});
+   </insert>
+
+    <!--//根据ID删除一个管理员-->
+    <delete id="delete" parameterType="int">
+      delete from military_events.Administrator where Userid=#{Userid};
+   </delete>
+
+    <!--通过账号查找管理员-->
+    <select id="findByAccount" resultType="Entity.Administrator">
+      select * from military_events.Administrator
+      where account = #{account};
+   </select>
+
+    <!--通过ID查找管理员-->
+    <select id="findByID" resultType="Entity.Administrator">
+      select * from military_events.Administrator
+      where Userid = #{Userid};
+   </select>
+
+    <!--查找所有管理员-->
+    <select id="findAll" resultType="Administrator">
+      SELECT * from military_events.Administrator
+   </select>
+
+</mapper>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="DAO.NewsMapper">
+
+    <!--新建一个新闻-->
+    <insert id="save" parameterType="Entity.News">
+      insert into military_events.News(newsID,newsTittle,newsTime, url,newsSource,newsPos)
+      values (null,#{newsTittle},#{newsTime}, #{url},#{newsSource},#{newsPos});
+   </insert>
+
+    <!--//根据ID删除一个新闻-->
+    <delete id="delete" parameterType="int">
+      delete from military_events.News where newsID=#{newsID};
+   </delete>
+
+    <!--查找所有新闻-->
+    <select id="findByID" resultType="Entity.News">
+      SELECT * from military_events.News
+      where NewsID = #{id};
+   </select>
+
+    <!--查找所有新闻-->
+    <select id="findAll" resultType="Entity.News">
+      SELECT * from military_events.News
+   </select>
+
+</mapper>

@@ -1,0 +1,34 @@
+#根目录路径
+RootPath = E:/Rootpath
+
+#数据存放地址
+DataPath = %RootPath%/data
+
+#训练集存放地址
+ExamplePath = %RootPath%/dataset
+
+#执行脚本存放地址
+ScriptPath = %RootPath%/bin/script
+
+#Python程序存放地址
+PyPath = %RootPath%/bin
+
+#浏览器程序存放地址
+ChromePath = %RootPath%/Tools/chrome
+
+#图片资源
+ImgPath = D:/intelliJ/SpatiotemporalEvolution/src/main/webapp/img
+
+#临时文件路径
+TempPath = %RootPath%/Temp
+
+#国名、时间、地点等资源文件路径
+ResPath = %RootPath%/resource
+
+#事件类别
+EventClasses = ['accidentevent','conflictevent','practiceevent','provocativeevent','rdevent','transactionevent']
+
+#百度地图AK
+baiduAK = wUixKXpRjjTuNebaEib9FfGxvjDuoPjG
+#谷歌地图AK
+googleAK = AIzaSyAQ-LCGlyvahNSP6-VezsWyEsupKAMr-sc

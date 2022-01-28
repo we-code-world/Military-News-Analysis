@@ -1,0 +1,14 @@
+展示-->eventClass startTime endTime eventLocations eventTriggers relateWeapons subjectCountries objectCountries eventStatus eventPolarity newsPos
+演习-->eventClass startTime endTime eventLocations eventTriggers relateWeapons subjectCountries objectCountries eventStatus eventPolarity newsPos
+研发-->eventClass startTime endTime eventLocations eventTriggers relateWeapons subjectCountries objectCountries eventStatus eventPolarity newsPos
+行动-->eventClass startTime endTime eventLocations eventTriggers relateWeapons subjectCountries objectCountries eventStatus eventPolarity newsPos
+维护-->eventClass startTime endTime eventLocations eventTriggers relateWeapons subjectCountries objectCountries eventStatus eventPolarity newsPos
+退役-->eventClass startTime endTime eventLocations eventTriggers relateWeapons subjectCountries objectCountries eventStatus eventPolarity newsPos
+挑衅-->eventClass startTime endTime eventLocations eventTriggers relateWeapons subjectCountries objectCountries eventStatus eventPolarity newsPos
+事故-->eventClass startTime endTime eventLocations eventTriggers relateWeapons subjectCountries objectCountries eventStatus eventPolarity newsPos
+生产-->eventClass startTime endTime eventLocations eventTriggers relateWeapons subjectCountries objectCountries eventStatus eventPolarity newsPos
+交易-->eventClass startTime endTime eventLocations eventTriggers relateWeapons subjectCountries objectCountries eventStatus eventPolarity newsPos
+改造-->eventClass startTime endTime eventLocations eventTriggers relateWeapons subjectCountries objectCountries eventStatus eventPolarity newsPos
+服役-->eventClass startTime endTime eventLocations eventTriggers relateWeapons subjectCountries objectCountries eventStatus eventPolarity newsPos
+冲突-->eventClass startTime endTime eventLocations eventTriggers relateWeapons subjectCountries objectCountries eventStatus eventPolarity newsPos
+测试-->eventClass startTime endTime eventLocations eventTriggers relateWeapons subjectCountries objectCountries eventStatus eventPolarity newsPos

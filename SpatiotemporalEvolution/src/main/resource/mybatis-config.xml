@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <typeAliases>
+        <package name="Entity"/>
+    </typeAliases>
+    <mappers>
+        <mapper resource="DAO/UserMapper.xml"/>
+        <mapper resource="DAO/NewsMapper.xml"/>
+        <mapper resource="DAO/LocationMapper.xml"/>
+        <mapper resource="DAO/AdministratorMapper.xml"/>
+        <mapper resource="DAO/EventMapper.xml"/>
+        <mapper resource="DAO/WeaponMapper.xml"/>
+        <mapper resource="DAO/KeySentenceMapper.xml"/>
+    </mappers>
+</configuration>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="DAO.LocationMapper">
+
+    <!--新建一个新闻-->
+    <insert id="save" parameterType="Entity.Location">
+      insert into military_events.Locations(posID,FirstPos,SecondPos,standardPos,Level,longitude,latitude)
+      values (null,#{country},#{secondPos}, #{standardPos},#{Level},#{longitude},#{latitude});
+   </insert>
+
+    <!--//根据ID删除一个新闻-->
+    <delete id="delete" parameterType="int">
+      delete from military_events.Locations where posID=#{PosID};
+   </delete>
+
+    <!--查找所有新闻-->
+    <select id="findByCountryAndLevel" resultType="Entity.Location">
+      SELECT * from military_events.Locations
+      where FirstPos = #{country} and Level = #{level};
+   </select>
+
+    <select id="findByID" resultType="Entity.Location">
+      SELECT * from military_events.Locations
+      where posID = #{posID};
+   </select>
+
+    <!--查找所有新闻-->
+    <select id="findAll" resultType="Entity.Location">
+      SELECT * from military_events.Locations
+   </select>
+
+</mapper>

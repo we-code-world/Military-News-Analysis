@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="DAO.EventMapper">
+
+    <!--新建一个管理员-->
+    <insert id="save" parameterType="Entity.Event">
+      insert into military_events.Event(accidentEventID,accidentEventTime,
+      accidentEventLocation,accidentEventTrigger,relateWeapon,SentenceID)
+      values (null,#{accidentEventTime},
+      #{accidentEventLocation},#{accidentEventTrigger},#{relateWeapon},#{SentenceID});
+   </insert>
+
+    <!--//根据ID删除一个管理员-->
+    <delete id="delete" parameterType="int">
+      delete from military_events.Event where AccidentEventEventID=#{id};
+   </delete>
+
+    <!--查找所有管理员-->
+    <select id="findByID" resultType="Entity.Event">
+      SELECT * from military_events.Event where accidentEventID = #{id};
+   </select>
+
+    <!--查找所有管理员-->
+    <select id="findAll" resultType="Entity.Event">
+      SELECT * from military_events.Event
+   </select>
+
+    <!--查找所有管理员-->
+    <select id="findCountByNum" resultType="int">
+      SELECT count(*) from military_events.Event
+      where relateWeapon = "${weaponName}" or relateWeapon like "%${weaponName};%" or relateWeapon like "%;${weaponName}%"
+   </select>
+
+    <!--查找所有管理员-->
+    <select id="findCountByNumDate" resultType="int">
+      SELECT count(*) from (SELECT * from military_events.Event
+      where accidentEventTime &gt; "${startTime}" AND accidentEventTime &lt; "${endTime}") RESTABLE
+      where relateWeapon like "%-${weaponName}" or relateWeapon like "%-${weaponName};%"
+   </select>
+
+    <!--查找所有管理员-->
+    <select id="LocCountByNumDate" resultType="int">
+      SELECT count(*) from (SELECT * from military_events.Event
+      where accidentEventTime &gt; "${startTime}" AND accidentEventTime &lt; "${endTime}") RESTABLE
+      where accidentEventLocation = #{LocName} or accidentEventLocation like "%;${LocName}" or accidentEventLocation like "${LocName};%"
+   </select>
+
+    <!--查找所有管理员-->
+    <select id="getCount" resultType="int">
+      SELECT count(*) from military_events.Event
+      where accidentEventTime &gt; "${startTime}" AND accidentEventTime &lt; "${endTime}";
+   </select>
+
+    <!--查找所有管理员-->
+    <select id="getALL" resultType="Entity.Event">
+      SELECT * from military_events.Event
+      where accidentEventTime &gt; "${startTime}" AND accidentEventTime &lt; "${endTime}";
+   </select>
+
+</mapper>

@@ -1,0 +1,374 @@
+2021/08/16 23:09:57 - INFO - evaluate - start evaluate!
+2021/08/16 23:09:57 - INFO - evaluate - total sentence examples num is 1128
+2021/08/16 23:10:00 - INFO - evaluate - SubObj: total item num is 2089
+2021/08/16 23:10:00 - INFO - evaluate - SubObj: total dataset num is 1128
+2021/08/16 23:10:00 - INFO - evaluate - now model path is /home/guest/Rootpath/model/Bert_SubObj/Model_0_0_1/checkpoint-180/model.pt
+2021/08/16 23:10:04 - INFO - evaluate - Use single gpu in: ['0']
+2021/08/16 23:10:17 - INFO - evaluate - SubObj-model(/home/guest/Rootpath/model/Bert_SubObj/Model_0_0_1/checkpoint-180/model.pt): TP: 952  FP: 51  FN: 1139
+2021/08/16 23:10:17 - INFO - evaluate - SubObj-model(/home/guest/Rootpath/model/Bert_SubObj/Model_0_0_1/checkpoint-180/model.pt): In start threshold: 0.5; end threshold: 0.5
+
+2021/08/16 23:10:17 - INFO - evaluate - SubObj-model(/home/guest/Rootpath/model/Bert_SubObj/Model_0_0_1/checkpoint-180/model.pt): [MIRCO] precision: 0.9492, recall: 0.4553, f1: 0.6154
+
+2021/08/16 23:10:17 - INFO - evaluate - SubObj-model(/home/guest/Rootpath/model/Bert_SubObj/Model_0_0_1/checkpoint-180/model.pt): Zero pred nums: 322
+2021/08/16 23:10:17 - INFO - evaluate - now model path is /home/guest/Rootpath/model/Bert_SubObj/Model_0_0_1/checkpoint-360/model.pt
+2021/08/16 23:10:20 - INFO - evaluate - Use single gpu in: ['0']
+2021/08/16 23:10:32 - INFO - evaluate - SubObj-model(/home/guest/Rootpath/model/Bert_SubObj/Model_0_0_1/checkpoint-360/model.pt): TP: 1271  FP: 75  FN: 818
+2021/08/16 23:10:32 - INFO - evaluate - SubObj-model(/home/guest/Rootpath/model/Bert_SubObj/Model_0_0_1/checkpoint-360/model.pt): In start threshold: 0.5; end threshold: 0.5
+
+2021/08/16 23:10:32 - INFO - evaluate - SubObj-model(/home/guest/Rootpath/model/Bert_SubObj/Model_0_0_1/checkpoint-360/model.pt): [MIRCO] precision: 0.9443, recall: 0.6084, f1: 0.7400
+
+2021/08/16 23:10:32 - INFO - evaluate - SubObj-model(/home/guest/Rootpath/model/Bert_SubObj/Model_0_0_1/checkpoint-360/model.pt): Zero pred nums: 156
+2021/08/16 23:10:32 - INFO - evaluate - now model path is /home/guest/Rootpath/model/Bert_SubObj/Model_0_0_1/checkpoint-540/model.pt
+2021/08/16 23:10:35 - INFO - evaluate - Use single gpu in: ['0']
+2021/08/16 23:10:48 - INFO - evaluate - SubObj-model(/home/guest/Rootpath/model/Bert_SubObj/Model_0_0_1/checkpoint-540/model.pt): TP: 1166  FP: 53  FN: 925
+2021/08/16 23:10:48 - INFO - evaluate - SubObj-model(/home/guest/Rootpath/model/Bert_SubObj/Model_0_0_1/checkpoint-540/model.pt): In start threshold: 0.5; end threshold: 0.5
+
+2021/08/16 23:10:48 - INFO - evaluate - SubObj-model(/home/guest/Rootpath/model/Bert_SubObj/Model_0_0_1/checkpoint-540/model.pt): [MIRCO] precision: 0.9565, recall: 0.5576, f1: 0.7045
+
+2021/08/16 23:10:48 - INFO - evaluate - SubObj-model(/home/guest/Rootpath/model/Bert_SubObj/Model_0_0_1/checkpoint-540/model.pt): Zero pred nums: 204
+2021/08/16 23:10:48 - INFO - evaluate - now model path is /home/guest/Rootpath/model/Bert_SubObj/Model_0_0_1/checkpoint-720/model.pt
+2021/08/16 23:10:50 - INFO - evaluate - Use single gpu in: ['0']
+2021/08/16 23:11:03 - INFO - evaluate - SubObj-model(/home/guest/Rootpath/model/Bert_SubObj/Model_0_0_1/checkpoint-720/model.pt): TP: 1278  FP: 93  FN: 816
+2021/08/16 23:11:03 - INFO - evaluate - SubObj-model(/home/guest/Rootpath/model/Bert_SubObj/Model_0_0_1/checkpoint-720/model.pt): In start threshold: 0.5; end threshold: 0.5
+
+2021/08/16 23:11:03 - INFO - evaluate - SubObj-model(/home/guest/Rootpath/model/Bert_SubObj/Model_0_0_1/checkpoint-720/model.pt): [MIRCO] precision: 0.9322, recall: 0.6103, f1: 0.7377
+
+2021/08/16 23:11:03 - INFO - evaluate - SubObj-model(/home/guest/Rootpath/model/Bert_SubObj/Model_0_0_1/checkpoint-720/model.pt): Zero pred nums: 131
+2021/08/16 23:11:03 - INFO - evaluate - now model path is /home/guest/Rootpath/model/Bert_SubObj/Model_0_0_1/checkpoint-900/model.pt
+2021/08/16 23:11:06 - INFO - evaluate - Use single gpu in: ['0']
+2021/08/16 23:11:19 - INFO - evaluate - SubObj-model(/home/guest/Rootpath/model/Bert_SubObj/Model_0_0_1/checkpoint-900/model.pt): TP: 1300  FP: 103  FN: 798
+2021/08/16 23:11:19 - INFO - evaluate - SubObj-model(/home/guest/Rootpath/model/Bert_SubObj/Model_0_0_1/checkpoint-900/model.pt): In start threshold: 0.5; end threshold: 0.5
+
+2021/08/16 23:11:19 - INFO - evaluate - SubObj-model(/home/guest/Rootpath/model/Bert_SubObj/Model_0_0_1/checkpoint-900/model.pt): [MIRCO] precision: 0.9266, recall: 0.6196, f1: 0.7426
+
+2021/08/16 23:11:19 - INFO - evaluate - SubObj-model(/home/guest/Rootpath/model/Bert_SubObj/Model_0_0_1/checkpoint-900/model.pt): Zero pred nums: 124
+2021/08/16 23:11:19 - INFO - evaluate - now model path is /home/guest/Rootpath/model/Bert_SubObj/Model_0_0_1/checkpoint-1080/model.pt
+2021/08/16 23:11:22 - INFO - evaluate - Use single gpu in: ['0']
+2021/08/16 23:11:36 - INFO - evaluate - SubObj-model(/home/guest/Rootpath/model/Bert_SubObj/Model_0_0_1/checkpoint-1080/model.pt): TP: 1236  FP: 95  FN: 861
+2021/08/16 23:11:36 - INFO - evaluate - SubObj-model(/home/guest/Rootpath/model/Bert_SubObj/Model_0_0_1/checkpoint-1080/model.pt): In start threshold: 0.5; end threshold: 0.5
+
+2021/08/16 23:11:36 - INFO - evaluate - SubObj-model(/home/guest/Rootpath/model/Bert_SubObj/Model_0_0_1/checkpoint-1080/model.pt): [MIRCO] precision: 0.9286, recall: 0.5894, f1: 0.7211
+
+2021/08/16 23:11:36 - INFO - evaluate - SubObj-model(/home/guest/Rootpath/model/Bert_SubObj/Model_0_0_1/checkpoint-1080/model.pt): Zero pred nums: 143
+2021/08/16 23:11:36 - INFO - evaluate - now model path is /home/guest/Rootpath/model/Bert_SubObj/Model_0_0_1/checkpoint-100000/model.pt
+2021/08/16 23:11:38 - INFO - evaluate - Use single gpu in: ['0']
+2021/08/16 23:11:52 - INFO - evaluate - SubObj-model(/home/guest/Rootpath/model/Bert_SubObj/Model_0_0_1/checkpoint-100000/model.pt): TP: 1322  FP: 67  FN: 773
+2021/08/16 23:11:52 - INFO - evaluate - SubObj-model(/home/guest/Rootpath/model/Bert_SubObj/Model_0_0_1/checkpoint-100000/model.pt): In start threshold: 0.5; end threshold: 0.5
+
+2021/08/16 23:11:52 - INFO - evaluate - SubObj-model(/home/guest/Rootpath/model/Bert_SubObj/Model_0_0_1/checkpoint-100000/model.pt): [MIRCO] precision: 0.9518, recall: 0.6310, f1: 0.7589
+
+2021/08/16 23:11:52 - INFO - evaluate - SubObj-model(/home/guest/Rootpath/model/Bert_SubObj/Model_0_0_1/checkpoint-100000/model.pt): Zero pred nums: 130
+2021/08/16 23:12:11 - INFO - evaluate - start evaluate!
+2021/08/16 23:12:11 - INFO - evaluate - total sentence examples num is 1128
+2021/08/16 23:12:14 - INFO - evaluate - SubObj: total item num is 2089
+2021/08/16 23:12:14 - INFO - evaluate - SubObj: total dataset num is 1128
+2021/08/16 23:12:14 - INFO - evaluate - now model path is /home/guest/Rootpath/model/Bert_SubObj/Model_0_0_1/checkpoint-180/model.pt
+2021/08/16 23:12:18 - INFO - evaluate - Use single gpu in: ['0']
+2021/08/16 23:12:31 - INFO - evaluate - SubObj-model(/home/guest/Rootpath/model/Bert_SubObj/Model_0_0_1/checkpoint-180/model.pt): TP: 952  FP: 51  FN: 1139
+2021/08/16 23:12:31 - INFO - evaluate - SubObj-model(/home/guest/Rootpath/model/Bert_SubObj/Model_0_0_1/checkpoint-180/model.pt): In start threshold: 0.5; end threshold: 0.5
+
+2021/08/16 23:12:31 - INFO - evaluate - SubObj-model(/home/guest/Rootpath/model/Bert_SubObj/Model_0_0_1/checkpoint-180/model.pt): [MIRCO] precision: 0.9492, recall: 0.4553, f1: 0.6154
+
+2021/08/16 23:12:31 - INFO - evaluate - SubObj-model(/home/guest/Rootpath/model/Bert_SubObj/Model_0_0_1/checkpoint-180/model.pt): Zero pred nums: 322
+2021/08/16 23:12:31 - INFO - evaluate - now model path is /home/guest/Rootpath/model/Bert_SubObj/Model_0_0_1/checkpoint-360/model.pt
+2021/08/16 23:12:34 - INFO - evaluate - Use single gpu in: ['0']
+2021/08/16 23:12:47 - INFO - evaluate - SubObj-model(/home/guest/Rootpath/model/Bert_SubObj/Model_0_0_1/checkpoint-360/model.pt): TP: 1271  FP: 75  FN: 818
+2021/08/16 23:12:47 - INFO - evaluate - SubObj-model(/home/guest/Rootpath/model/Bert_SubObj/Model_0_0_1/checkpoint-360/model.pt): In start threshold: 0.5; end threshold: 0.5
+
+2021/08/16 23:12:47 - INFO - evaluate - SubObj-model(/home/guest/Rootpath/model/Bert_SubObj/Model_0_0_1/checkpoint-360/model.pt): [MIRCO] precision: 0.9443, recall: 0.6084, f1: 0.7400
+
+2021/08/16 23:12:47 - INFO - evaluate - SubObj-model(/home/guest/Rootpath/model/Bert_SubObj/Model_0_0_1/checkpoint-360/model.pt): Zero pred nums: 156
+2021/08/16 23:12:47 - INFO - evaluate - now model path is /home/guest/Rootpath/model/Bert_SubObj/Model_0_0_1/checkpoint-540/model.pt
+2021/08/16 23:12:49 - INFO - evaluate - Use single gpu in: ['0']
+2021/08/16 23:13:03 - INFO - evaluate - SubObj-model(/home/guest/Rootpath/model/Bert_SubObj/Model_0_0_1/checkpoint-540/model.pt): TP: 1166  FP: 53  FN: 925
+2021/08/16 23:13:03 - INFO - evaluate - SubObj-model(/home/guest/Rootpath/model/Bert_SubObj/Model_0_0_1/checkpoint-540/model.pt): In start threshold: 0.5; end threshold: 0.5
+
+2021/08/16 23:13:03 - INFO - evaluate - SubObj-model(/home/guest/Rootpath/model/Bert_SubObj/Model_0_0_1/checkpoint-540/model.pt): [MIRCO] precision: 0.9565, recall: 0.5576, f1: 0.7045
+
+2021/08/16 23:13:03 - INFO - evaluate - SubObj-model(/home/guest/Rootpath/model/Bert_SubObj/Model_0_0_1/checkpoint-540/model.pt): Zero pred nums: 204
+2021/08/16 23:13:03 - INFO - evaluate - now model path is /home/guest/Rootpath/model/Bert_SubObj/Model_0_0_1/checkpoint-720/model.pt
+2021/08/16 23:13:05 - INFO - evaluate - Use single gpu in: ['0']
+2021/08/16 23:13:20 - INFO - evaluate - SubObj-model(/home/guest/Rootpath/model/Bert_SubObj/Model_0_0_1/checkpoint-720/model.pt): TP: 1278  FP: 93  FN: 816
+2021/08/16 23:13:20 - INFO - evaluate - SubObj-model(/home/guest/Rootpath/model/Bert_SubObj/Model_0_0_1/checkpoint-720/model.pt): In start threshold: 0.5; end threshold: 0.5
+
+2021/08/16 23:13:20 - INFO - evaluate - SubObj-model(/home/guest/Rootpath/model/Bert_SubObj/Model_0_0_1/checkpoint-720/model.pt): [MIRCO] precision: 0.9322, recall: 0.6103, f1: 0.7377
+
+2021/08/16 23:13:20 - INFO - evaluate - SubObj-model(/home/guest/Rootpath/model/Bert_SubObj/Model_0_0_1/checkpoint-720/model.pt): Zero pred nums: 131
+2021/08/16 23:13:20 - INFO - evaluate - now model path is /home/guest/Rootpath/model/Bert_SubObj/Model_0_0_1/checkpoint-900/model.pt
+2021/08/16 23:13:22 - INFO - evaluate - Use single gpu in: ['0']
+2021/08/16 23:13:36 - INFO - evaluate - SubObj-model(/home/guest/Rootpath/model/Bert_SubObj/Model_0_0_1/checkpoint-900/model.pt): TP: 1300  FP: 103  FN: 798
+2021/08/16 23:13:36 - INFO - evaluate - SubObj-model(/home/guest/Rootpath/model/Bert_SubObj/Model_0_0_1/checkpoint-900/model.pt): In start threshold: 0.5; end threshold: 0.5
+
+2021/08/16 23:13:36 - INFO - evaluate - SubObj-model(/home/guest/Rootpath/model/Bert_SubObj/Model_0_0_1/checkpoint-900/model.pt): [MIRCO] precision: 0.9266, recall: 0.6196, f1: 0.7426
+
+2021/08/16 23:13:36 - INFO - evaluate - SubObj-model(/home/guest/Rootpath/model/Bert_SubObj/Model_0_0_1/checkpoint-900/model.pt): Zero pred nums: 124
+2021/08/16 23:13:36 - INFO - evaluate - now model path is /home/guest/Rootpath/model/Bert_SubObj/Model_0_0_1/checkpoint-1080/model.pt
+2021/08/16 23:13:39 - INFO - evaluate - Use single gpu in: ['0']
+2021/08/16 23:13:53 - INFO - evaluate - SubObj-model(/home/guest/Rootpath/model/Bert_SubObj/Model_0_0_1/checkpoint-1080/model.pt): TP: 1236  FP: 95  FN: 861
+2021/08/16 23:13:53 - INFO - evaluate - SubObj-model(/home/guest/Rootpath/model/Bert_SubObj/Model_0_0_1/checkpoint-1080/model.pt): In start threshold: 0.5; end threshold: 0.5
+
+2021/08/16 23:13:53 - INFO - evaluate - SubObj-model(/home/guest/Rootpath/model/Bert_SubObj/Model_0_0_1/checkpoint-1080/model.pt): [MIRCO] precision: 0.9286, recall: 0.5894, f1: 0.7211
+
+2021/08/16 23:13:53 - INFO - evaluate - SubObj-model(/home/guest/Rootpath/model/Bert_SubObj/Model_0_0_1/checkpoint-1080/model.pt): Zero pred nums: 143
+2021/08/16 23:13:53 - INFO - evaluate - now model path is /home/guest/Rootpath/model/Bert_SubObj/Model_0_0_1/checkpoint-100000/model.pt
+2021/08/16 23:13:55 - INFO - evaluate - Use single gpu in: ['0']
+2021/08/16 23:14:09 - INFO - evaluate - SubObj-model(/home/guest/Rootpath/model/Bert_SubObj/Model_0_0_1/checkpoint-100000/model.pt): TP: 1322  FP: 67  FN: 773
+2021/08/16 23:14:09 - INFO - evaluate - SubObj-model(/home/guest/Rootpath/model/Bert_SubObj/Model_0_0_1/checkpoint-100000/model.pt): In start threshold: 0.5; end threshold: 0.5
+
+2021/08/16 23:14:09 - INFO - evaluate - SubObj-model(/home/guest/Rootpath/model/Bert_SubObj/Model_0_0_1/checkpoint-100000/model.pt): [MIRCO] precision: 0.9518, recall: 0.6310, f1: 0.7589
+
+2021/08/16 23:14:09 - INFO - evaluate - SubObj-model(/home/guest/Rootpath/model/Bert_SubObj/Model_0_0_1/checkpoint-100000/model.pt): Zero pred nums: 130
+2021/08/17 00:00:33 - INFO - train - start training!
+2021/08/17 00:00:35 - INFO - train - total sentence examples num is 2632
+2021/08/17 00:00:43 - INFO - train - SubObj: total item num is 4901
+2021/08/17 00:00:43 - INFO - train - SubObj: total dataset num is 2632
+2021/08/17 00:00:44 - INFO - train - Use single gpu in: ['1']
+2021/08/17 00:00:44 - INFO - train - ***** Running training *****
+2021/08/17 00:00:44 - INFO - train -   Num Examples = 2632
+2021/08/17 00:00:44 - INFO - train -   Num Epochs = 6
+2021/08/17 00:00:44 - INFO - train -   Total training batch size = 16
+2021/08/17 00:00:44 - INFO - train -   Total optimization steps = 990
+2021/08/17 00:00:44 - INFO - train - Save model in 165 steps; Eval model in 165 steps
+2021/08/17 00:01:26 - INFO - train - Step: 20 / 990 ----> total loss: 0.19928
+2021/08/17 00:02:09 - INFO - train - Step: 40 / 990 ----> total loss: 0.06062
+2021/08/17 00:02:54 - INFO - train - Step: 60 / 990 ----> total loss: 0.03000
+2021/08/17 00:03:38 - INFO - train - Step: 80 / 990 ----> total loss: 0.02925
+2021/08/17 00:04:23 - INFO - train - Step: 100 / 990 ----> total loss: 0.02488
+2021/08/17 00:05:09 - INFO - train - Step: 120 / 990 ----> total loss: 0.01827
+2021/08/17 00:05:54 - INFO - train - Step: 140 / 990 ----> total loss: 0.01490
+2021/08/17 00:06:39 - INFO - train - Step: 160 / 990 ----> total loss: 0.01295
+2021/08/17 00:06:50 - INFO - train - Saving checkpoint of  model to /home/guest/Rootpath/model/Bert_SubObj/Model_0_0_2/checkpoint-165
+2021/08/17 00:07:24 - INFO - train - Step: 180 / 990 ----> total loss: 0.01154
+2021/08/17 00:08:09 - INFO - train - Step: 200 / 990 ----> total loss: 0.01064
+2021/08/17 00:08:55 - INFO - train - Step: 220 / 990 ----> total loss: 0.01003
+2021/08/17 00:09:40 - INFO - train - Step: 240 / 990 ----> total loss: 0.00970
+2021/08/17 00:10:25 - INFO - train - Step: 260 / 990 ----> total loss: 0.00920
+2021/08/17 00:11:10 - INFO - train - Step: 280 / 990 ----> total loss: 0.00914
+2021/08/17 00:11:56 - INFO - train - Step: 300 / 990 ----> total loss: 0.00791
+2021/08/17 00:12:41 - INFO - train - Step: 320 / 990 ----> total loss: 0.00872
+2021/08/17 00:13:03 - INFO - train - Saving checkpoint of  model to /home/guest/Rootpath/model/Bert_SubObj/Model_0_0_2/checkpoint-330
+2021/08/17 00:13:26 - INFO - train - Step: 340 / 990 ----> total loss: 0.00798
+2021/08/17 00:14:12 - INFO - train - Step: 360 / 990 ----> total loss: 0.00636
+2021/08/17 00:14:57 - INFO - train - Step: 380 / 990 ----> total loss: 0.00562
+2021/08/17 00:15:43 - INFO - train - Step: 400 / 990 ----> total loss: 0.00590
+2021/08/17 00:16:28 - INFO - train - Step: 420 / 990 ----> total loss: 0.00644
+2021/08/17 00:17:14 - INFO - train - Step: 440 / 990 ----> total loss: 0.00475
+2021/08/17 00:17:59 - INFO - train - Step: 460 / 990 ----> total loss: 0.00581
+2021/08/17 00:18:45 - INFO - train - Step: 480 / 990 ----> total loss: 0.00495
+2021/08/17 00:19:18 - INFO - train - Saving checkpoint of  model to /home/guest/Rootpath/model/Bert_SubObj/Model_0_0_2/checkpoint-495
+2021/08/17 00:19:30 - INFO - train - Step: 500 / 990 ----> total loss: 0.00479
+2021/08/17 00:20:15 - INFO - train - Step: 520 / 990 ----> total loss: 0.00427
+2021/08/17 00:21:01 - INFO - train - Step: 540 / 990 ----> total loss: 0.00405
+2021/08/17 00:21:46 - INFO - train - Step: 560 / 990 ----> total loss: 0.00438
+2021/08/17 00:22:32 - INFO - train - Step: 580 / 990 ----> total loss: 0.00394
+2021/08/17 00:23:17 - INFO - train - Step: 600 / 990 ----> total loss: 0.00380
+2021/08/17 00:24:03 - INFO - train - Step: 620 / 990 ----> total loss: 0.00350
+2021/08/17 00:24:49 - INFO - train - Step: 640 / 990 ----> total loss: 0.00322
+2021/08/17 00:25:33 - INFO - train - Step: 660 / 990 ----> total loss: 0.00363
+2021/08/17 00:25:33 - INFO - train - Saving checkpoint of  model to /home/guest/Rootpath/model/Bert_SubObj/Model_0_0_2/checkpoint-660
+2021/08/17 00:26:20 - INFO - train - Step: 680 / 990 ----> total loss: 0.00300
+2021/08/17 00:27:05 - INFO - train - Step: 700 / 990 ----> total loss: 0.00293
+2021/08/17 00:27:51 - INFO - train - Step: 720 / 990 ----> total loss: 0.00260
+2021/08/17 00:28:36 - INFO - train - Step: 740 / 990 ----> total loss: 0.00314
+2021/08/17 00:29:22 - INFO - train - Step: 760 / 990 ----> total loss: 0.00252
+2021/08/17 00:30:07 - INFO - train - Step: 780 / 990 ----> total loss: 0.00272
+2021/08/17 00:30:53 - INFO - train - Step: 800 / 990 ----> total loss: 0.00244
+2021/08/17 00:31:38 - INFO - train - Step: 820 / 990 ----> total loss: 0.00257
+2021/08/17 00:31:49 - INFO - train - Saving checkpoint of  model to /home/guest/Rootpath/model/Bert_SubObj/Model_0_0_2/checkpoint-825
+2021/08/17 00:32:24 - INFO - train - Step: 840 / 990 ----> total loss: 0.00261
+2021/08/17 00:33:09 - INFO - train - Step: 860 / 990 ----> total loss: 0.00242
+2021/08/17 00:33:55 - INFO - train - Step: 880 / 990 ----> total loss: 0.00230
+2021/08/17 00:34:41 - INFO - train - Step: 900 / 990 ----> total loss: 0.00211
+2021/08/17 00:35:26 - INFO - train - Step: 920 / 990 ----> total loss: 0.00182
+2021/08/17 00:36:12 - INFO - train - Step: 940 / 990 ----> total loss: 0.00210
+2021/08/17 00:36:58 - INFO - train - Step: 960 / 990 ----> total loss: 0.00192
+2021/08/17 00:37:43 - INFO - train - Step: 980 / 990 ----> total loss: 0.00244
+2021/08/17 00:38:05 - INFO - train - Saving checkpoint of  model to /home/guest/Rootpath/model/Bert_SubObj/Model_0_0_2/checkpoint-990
+2021/08/17 00:38:05 - INFO - train - Saving checkpoint of  model to /home/guest/Rootpath/model/Bert_SubObj/Model_0_0_2/checkpoint-990
+2021/08/17 00:38:07 - INFO - train - Load model from /home/guest/Rootpath/model/Bert_SubObj/Model_0_0_2/checkpoint-495/model.pt
+2021/08/17 00:38:07 - INFO - train - Load model from /home/guest/Rootpath/model/Bert_SubObj/Model_0_0_2/checkpoint-660/model.pt
+2021/08/17 00:38:08 - INFO - train - Load model from /home/guest/Rootpath/model/Bert_SubObj/Model_0_0_2/checkpoint-825/model.pt
+2021/08/17 00:38:08 - INFO - train - Load model from /home/guest/Rootpath/model/Bert_SubObj/Model_0_0_2/checkpoint-330/model.pt
+2021/08/17 00:38:09 - INFO - train - Load model from /home/guest/Rootpath/model/Bert_SubObj/Model_0_0_2/checkpoint-165/model.pt
+2021/08/17 00:38:09 - INFO - train - Save swa model in: /home/guest/Rootpath/model/Bert_SubObj/Model_0_0_2/checkpoint-100000
+2021/08/17 00:38:09 - INFO - train - Train done
+2021/08/17 00:38:20 - INFO - evaluate - start evaluate!
+2021/08/17 00:38:20 - INFO - evaluate - total sentence examples num is 1089
+2021/08/17 00:38:23 - INFO - evaluate - SubObj: total item num is 2067
+2021/08/17 00:38:23 - INFO - evaluate - SubObj: total dataset num is 1089
+2021/08/17 00:38:23 - INFO - evaluate - now model path is /home/guest/Rootpath/model/Bert_SubObj/Model_0_0_2/checkpoint-165/model.pt
+2021/08/17 00:38:27 - INFO - evaluate - Use single gpu in: ['0']
+2021/08/17 00:38:39 - INFO - evaluate - SubObj-model(/home/guest/Rootpath/model/Bert_SubObj/Model_0_0_2/checkpoint-165/model.pt): TP: 834  FP: 48  FN: 1235
+2021/08/17 00:38:39 - INFO - evaluate - SubObj-model(/home/guest/Rootpath/model/Bert_SubObj/Model_0_0_2/checkpoint-165/model.pt): In start threshold: 0.5; end threshold: 0.5
+
+2021/08/17 00:38:39 - INFO - evaluate - SubObj-model(/home/guest/Rootpath/model/Bert_SubObj/Model_0_0_2/checkpoint-165/model.pt): [MIRCO] precision: 0.9456, recall: 0.4031, f1: 0.5652
+
+2021/08/17 00:38:39 - INFO - evaluate - SubObj-model(/home/guest/Rootpath/model/Bert_SubObj/Model_0_0_2/checkpoint-165/model.pt): Zero pred nums: 322
+2021/08/17 00:38:39 - INFO - evaluate - now model path is /home/guest/Rootpath/model/Bert_SubObj/Model_0_0_2/checkpoint-330/model.pt
+2021/08/17 00:38:42 - INFO - evaluate - Use single gpu in: ['0']
+2021/08/17 00:38:54 - INFO - evaluate - SubObj-model(/home/guest/Rootpath/model/Bert_SubObj/Model_0_0_2/checkpoint-330/model.pt): TP: 1297  FP: 61  FN: 773
+2021/08/17 00:38:54 - INFO - evaluate - SubObj-model(/home/guest/Rootpath/model/Bert_SubObj/Model_0_0_2/checkpoint-330/model.pt): In start threshold: 0.5; end threshold: 0.5
+
+2021/08/17 00:38:54 - INFO - evaluate - SubObj-model(/home/guest/Rootpath/model/Bert_SubObj/Model_0_0_2/checkpoint-330/model.pt): [MIRCO] precision: 0.9551, recall: 0.6266, f1: 0.7567
+
+2021/08/17 00:38:54 - INFO - evaluate - SubObj-model(/home/guest/Rootpath/model/Bert_SubObj/Model_0_0_2/checkpoint-330/model.pt): Zero pred nums: 147
+2021/08/17 00:38:54 - INFO - evaluate - now model path is /home/guest/Rootpath/model/Bert_SubObj/Model_0_0_2/checkpoint-495/model.pt
+2021/08/17 00:38:57 - INFO - evaluate - Use single gpu in: ['0']
+2021/08/17 00:39:09 - INFO - evaluate - SubObj-model(/home/guest/Rootpath/model/Bert_SubObj/Model_0_0_2/checkpoint-495/model.pt): TP: 1225  FP: 73  FN: 848
+2021/08/17 00:39:09 - INFO - evaluate - SubObj-model(/home/guest/Rootpath/model/Bert_SubObj/Model_0_0_2/checkpoint-495/model.pt): In start threshold: 0.5; end threshold: 0.5
+
+2021/08/17 00:39:09 - INFO - evaluate - SubObj-model(/home/guest/Rootpath/model/Bert_SubObj/Model_0_0_2/checkpoint-495/model.pt): [MIRCO] precision: 0.9438, recall: 0.5909, f1: 0.7268
+
+2021/08/17 00:39:09 - INFO - evaluate - SubObj-model(/home/guest/Rootpath/model/Bert_SubObj/Model_0_0_2/checkpoint-495/model.pt): Zero pred nums: 128
+2021/08/17 00:39:09 - INFO - evaluate - now model path is /home/guest/Rootpath/model/Bert_SubObj/Model_0_0_2/checkpoint-660/model.pt
+2021/08/17 00:39:12 - INFO - evaluate - Use single gpu in: ['0']
+2021/08/17 00:39:25 - INFO - evaluate - SubObj-model(/home/guest/Rootpath/model/Bert_SubObj/Model_0_0_2/checkpoint-660/model.pt): TP: 1214  FP: 51  FN: 862
+2021/08/17 00:39:25 - INFO - evaluate - SubObj-model(/home/guest/Rootpath/model/Bert_SubObj/Model_0_0_2/checkpoint-660/model.pt): In start threshold: 0.5; end threshold: 0.5
+
+2021/08/17 00:39:25 - INFO - evaluate - SubObj-model(/home/guest/Rootpath/model/Bert_SubObj/Model_0_0_2/checkpoint-660/model.pt): [MIRCO] precision: 0.9597, recall: 0.5848, f1: 0.7267
+
+2021/08/17 00:39:25 - INFO - evaluate - SubObj-model(/home/guest/Rootpath/model/Bert_SubObj/Model_0_0_2/checkpoint-660/model.pt): Zero pred nums: 150
+2021/08/17 00:39:25 - INFO - evaluate - now model path is /home/guest/Rootpath/model/Bert_SubObj/Model_0_0_2/checkpoint-825/model.pt
+2021/08/17 00:39:28 - INFO - evaluate - Use single gpu in: ['0']
+2021/08/17 00:39:41 - INFO - evaluate - SubObj-model(/home/guest/Rootpath/model/Bert_SubObj/Model_0_0_2/checkpoint-825/model.pt): TP: 1269  FP: 75  FN: 807
+2021/08/17 00:39:41 - INFO - evaluate - SubObj-model(/home/guest/Rootpath/model/Bert_SubObj/Model_0_0_2/checkpoint-825/model.pt): In start threshold: 0.5; end threshold: 0.5
+
+2021/08/17 00:39:41 - INFO - evaluate - SubObj-model(/home/guest/Rootpath/model/Bert_SubObj/Model_0_0_2/checkpoint-825/model.pt): [MIRCO] precision: 0.9442, recall: 0.6113, f1: 0.7421
+
+2021/08/17 00:39:41 - INFO - evaluate - SubObj-model(/home/guest/Rootpath/model/Bert_SubObj/Model_0_0_2/checkpoint-825/model.pt): Zero pred nums: 125
+2021/08/17 00:39:41 - INFO - evaluate - now model path is /home/guest/Rootpath/model/Bert_SubObj/Model_0_0_2/checkpoint-990/model.pt
+2021/08/17 00:39:44 - INFO - evaluate - Use single gpu in: ['0']
+2021/08/17 00:39:58 - INFO - evaluate - SubObj-model(/home/guest/Rootpath/model/Bert_SubObj/Model_0_0_2/checkpoint-990/model.pt): TP: 1238  FP: 66  FN: 838
+2021/08/17 00:39:58 - INFO - evaluate - SubObj-model(/home/guest/Rootpath/model/Bert_SubObj/Model_0_0_2/checkpoint-990/model.pt): In start threshold: 0.5; end threshold: 0.5
+
+2021/08/17 00:39:58 - INFO - evaluate - SubObj-model(/home/guest/Rootpath/model/Bert_SubObj/Model_0_0_2/checkpoint-990/model.pt): [MIRCO] precision: 0.9494, recall: 0.5963, f1: 0.7325
+
+2021/08/17 00:39:58 - INFO - evaluate - SubObj-model(/home/guest/Rootpath/model/Bert_SubObj/Model_0_0_2/checkpoint-990/model.pt): Zero pred nums: 135
+2021/08/17 00:39:58 - INFO - evaluate - now model path is /home/guest/Rootpath/model/Bert_SubObj/Model_0_0_2/checkpoint-100000/model.pt
+2021/08/17 00:40:00 - INFO - evaluate - Use single gpu in: ['0']
+2021/08/17 00:40:14 - INFO - evaluate - SubObj-model(/home/guest/Rootpath/model/Bert_SubObj/Model_0_0_2/checkpoint-100000/model.pt): TP: 1328  FP: 62  FN: 743
+2021/08/17 00:40:14 - INFO - evaluate - SubObj-model(/home/guest/Rootpath/model/Bert_SubObj/Model_0_0_2/checkpoint-100000/model.pt): In start threshold: 0.5; end threshold: 0.5
+
+2021/08/17 00:40:14 - INFO - evaluate - SubObj-model(/home/guest/Rootpath/model/Bert_SubObj/Model_0_0_2/checkpoint-100000/model.pt): [MIRCO] precision: 0.9554, recall: 0.6412, f1: 0.7674
+
+2021/08/17 00:40:14 - INFO - evaluate - SubObj-model(/home/guest/Rootpath/model/Bert_SubObj/Model_0_0_2/checkpoint-100000/model.pt): Zero pred nums: 96
+2021/08/17 00:43:01 - INFO - evaluate - start evaluate!
+2021/08/17 00:43:01 - INFO - evaluate - total sentence examples num is 506
+2021/08/17 00:43:02 - INFO - evaluate - SubObj: total item num is 974
+2021/08/17 00:43:02 - INFO - evaluate - SubObj: total dataset num is 533
+2021/08/17 00:43:02 - INFO - evaluate - now model path is /home/guest/Rootpath/model/Bert_SubObj/Model_0_0_2/checkpoint-165/model.pt
+2021/08/17 00:43:06 - INFO - evaluate - Use single gpu in: ['0']
+2021/08/17 00:43:12 - INFO - evaluate - SubObj-model(/home/guest/Rootpath/model/Bert_SubObj/Model_0_0_2/checkpoint-165/model.pt): TP: 380  FP: 23  FN: 700
+2021/08/17 00:43:12 - INFO - evaluate - SubObj-model(/home/guest/Rootpath/model/Bert_SubObj/Model_0_0_2/checkpoint-165/model.pt): In start threshold: 0.5; end threshold: 0.5
+
+2021/08/17 00:43:12 - INFO - evaluate - SubObj-model(/home/guest/Rootpath/model/Bert_SubObj/Model_0_0_2/checkpoint-165/model.pt): [MIRCO] precision: 0.9429, recall: 0.3519, f1: 0.5125
+
+2021/08/17 00:43:12 - INFO - evaluate - SubObj-model(/home/guest/Rootpath/model/Bert_SubObj/Model_0_0_2/checkpoint-165/model.pt): Zero pred nums: 197
+2021/08/17 00:43:12 - INFO - evaluate - now model path is /home/guest/Rootpath/model/Bert_SubObj/Model_0_0_2/checkpoint-330/model.pt
+2021/08/17 00:43:15 - INFO - evaluate - Use single gpu in: ['0']
+2021/08/17 00:43:21 - INFO - evaluate - SubObj-model(/home/guest/Rootpath/model/Bert_SubObj/Model_0_0_2/checkpoint-330/model.pt): TP: 634  FP: 36  FN: 447
+2021/08/17 00:43:21 - INFO - evaluate - SubObj-model(/home/guest/Rootpath/model/Bert_SubObj/Model_0_0_2/checkpoint-330/model.pt): In start threshold: 0.5; end threshold: 0.5
+
+2021/08/17 00:43:21 - INFO - evaluate - SubObj-model(/home/guest/Rootpath/model/Bert_SubObj/Model_0_0_2/checkpoint-330/model.pt): [MIRCO] precision: 0.9463, recall: 0.5865, f1: 0.7242
+
+2021/08/17 00:43:21 - INFO - evaluate - SubObj-model(/home/guest/Rootpath/model/Bert_SubObj/Model_0_0_2/checkpoint-330/model.pt): Zero pred nums: 91
+2021/08/17 00:43:21 - INFO - evaluate - now model path is /home/guest/Rootpath/model/Bert_SubObj/Model_0_0_2/checkpoint-495/model.pt
+2021/08/17 00:43:24 - INFO - evaluate - Use single gpu in: ['0']
+2021/08/17 00:43:30 - INFO - evaluate - SubObj-model(/home/guest/Rootpath/model/Bert_SubObj/Model_0_0_2/checkpoint-495/model.pt): TP: 650  FP: 40  FN: 432
+2021/08/17 00:43:30 - INFO - evaluate - SubObj-model(/home/guest/Rootpath/model/Bert_SubObj/Model_0_0_2/checkpoint-495/model.pt): In start threshold: 0.5; end threshold: 0.5
+
+2021/08/17 00:43:30 - INFO - evaluate - SubObj-model(/home/guest/Rootpath/model/Bert_SubObj/Model_0_0_2/checkpoint-495/model.pt): [MIRCO] precision: 0.9420, recall: 0.6007, f1: 0.7336
+
+2021/08/17 00:43:30 - INFO - evaluate - SubObj-model(/home/guest/Rootpath/model/Bert_SubObj/Model_0_0_2/checkpoint-495/model.pt): Zero pred nums: 58
+2021/08/17 00:43:30 - INFO - evaluate - now model path is /home/guest/Rootpath/model/Bert_SubObj/Model_0_0_2/checkpoint-660/model.pt
+2021/08/17 00:43:32 - INFO - evaluate - Use single gpu in: ['0']
+2021/08/17 00:43:39 - INFO - evaluate - SubObj-model(/home/guest/Rootpath/model/Bert_SubObj/Model_0_0_2/checkpoint-660/model.pt): TP: 638  FP: 39  FN: 446
+2021/08/17 00:43:39 - INFO - evaluate - SubObj-model(/home/guest/Rootpath/model/Bert_SubObj/Model_0_0_2/checkpoint-660/model.pt): In start threshold: 0.5; end threshold: 0.5
+
+2021/08/17 00:43:39 - INFO - evaluate - SubObj-model(/home/guest/Rootpath/model/Bert_SubObj/Model_0_0_2/checkpoint-660/model.pt): [MIRCO] precision: 0.9424, recall: 0.5886, f1: 0.7246
+
+2021/08/17 00:43:39 - INFO - evaluate - SubObj-model(/home/guest/Rootpath/model/Bert_SubObj/Model_0_0_2/checkpoint-660/model.pt): Zero pred nums: 70
+2021/08/17 00:43:39 - INFO - evaluate - now model path is /home/guest/Rootpath/model/Bert_SubObj/Model_0_0_2/checkpoint-825/model.pt
+2021/08/17 00:43:42 - INFO - evaluate - Use single gpu in: ['0']
+2021/08/17 00:43:48 - INFO - evaluate - SubObj-model(/home/guest/Rootpath/model/Bert_SubObj/Model_0_0_2/checkpoint-825/model.pt): TP: 665  FP: 44  FN: 419
+2021/08/17 00:43:48 - INFO - evaluate - SubObj-model(/home/guest/Rootpath/model/Bert_SubObj/Model_0_0_2/checkpoint-825/model.pt): In start threshold: 0.5; end threshold: 0.5
+
+2021/08/17 00:43:48 - INFO - evaluate - SubObj-model(/home/guest/Rootpath/model/Bert_SubObj/Model_0_0_2/checkpoint-825/model.pt): [MIRCO] precision: 0.9379, recall: 0.6135, f1: 0.7418
+
+2021/08/17 00:43:48 - INFO - evaluate - SubObj-model(/home/guest/Rootpath/model/Bert_SubObj/Model_0_0_2/checkpoint-825/model.pt): Zero pred nums: 61
+2021/08/17 00:43:48 - INFO - evaluate - now model path is /home/guest/Rootpath/model/Bert_SubObj/Model_0_0_2/checkpoint-990/model.pt
+2021/08/17 00:43:51 - INFO - evaluate - Use single gpu in: ['0']
+2021/08/17 00:43:57 - INFO - evaluate - SubObj-model(/home/guest/Rootpath/model/Bert_SubObj/Model_0_0_2/checkpoint-990/model.pt): TP: 651  FP: 39  FN: 432
+2021/08/17 00:43:57 - INFO - evaluate - SubObj-model(/home/guest/Rootpath/model/Bert_SubObj/Model_0_0_2/checkpoint-990/model.pt): In start threshold: 0.5; end threshold: 0.5
+
+2021/08/17 00:43:57 - INFO - evaluate - SubObj-model(/home/guest/Rootpath/model/Bert_SubObj/Model_0_0_2/checkpoint-990/model.pt): [MIRCO] precision: 0.9435, recall: 0.6011, f1: 0.7343
+
+2021/08/17 00:43:57 - INFO - evaluate - SubObj-model(/home/guest/Rootpath/model/Bert_SubObj/Model_0_0_2/checkpoint-990/model.pt): Zero pred nums: 67
+2021/08/17 00:43:57 - INFO - evaluate - now model path is /home/guest/Rootpath/model/Bert_SubObj/Model_0_0_2/checkpoint-100000/model.pt
+2021/08/17 00:44:00 - INFO - evaluate - Use single gpu in: ['0']
+2021/08/17 00:44:06 - INFO - evaluate - SubObj-model(/home/guest/Rootpath/model/Bert_SubObj/Model_0_0_2/checkpoint-100000/model.pt): TP: 668  FP: 37  FN: 413
+2021/08/17 00:44:06 - INFO - evaluate - SubObj-model(/home/guest/Rootpath/model/Bert_SubObj/Model_0_0_2/checkpoint-100000/model.pt): In start threshold: 0.5; end threshold: 0.5
+
+2021/08/17 00:44:06 - INFO - evaluate - SubObj-model(/home/guest/Rootpath/model/Bert_SubObj/Model_0_0_2/checkpoint-100000/model.pt): [MIRCO] precision: 0.9475, recall: 0.6179, f1: 0.7480
+
+2021/08/17 00:44:06 - INFO - evaluate - SubObj-model(/home/guest/Rootpath/model/Bert_SubObj/Model_0_0_2/checkpoint-100000/model.pt): Zero pred nums: 58
+2021/08/17 00:51:18 - INFO - evaluate - start evaluate!
+2021/08/17 00:51:18 - INFO - evaluate - total sentence examples num is 1128
+2021/08/17 00:51:21 - INFO - evaluate - SubObj: total item num is 2089
+2021/08/17 00:51:21 - INFO - evaluate - SubObj: total dataset num is 1128
+2021/08/17 00:51:21 - INFO - evaluate - now model path is /home/guest/Rootpath/model/Bert_SubObj/Model_0_0_2/checkpoint-165/model.pt
+2021/08/17 00:51:25 - INFO - evaluate - Use single gpu in: ['0']
+2021/08/17 00:51:38 - INFO - evaluate - SubObj-model(/home/guest/Rootpath/model/Bert_SubObj/Model_0_0_2/checkpoint-165/model.pt): TP: 834  FP: 58  FN: 1257
+2021/08/17 00:51:38 - INFO - evaluate - SubObj-model(/home/guest/Rootpath/model/Bert_SubObj/Model_0_0_2/checkpoint-165/model.pt): In start threshold: 0.5; end threshold: 0.5
+
+2021/08/17 00:51:38 - INFO - evaluate - SubObj-model(/home/guest/Rootpath/model/Bert_SubObj/Model_0_0_2/checkpoint-165/model.pt): [MIRCO] precision: 0.9350, recall: 0.3989, f1: 0.5592
+
+2021/08/17 00:51:38 - INFO - evaluate - SubObj-model(/home/guest/Rootpath/model/Bert_SubObj/Model_0_0_2/checkpoint-165/model.pt): Zero pred nums: 351
+2021/08/17 00:51:38 - INFO - evaluate - now model path is /home/guest/Rootpath/model/Bert_SubObj/Model_0_0_2/checkpoint-330/model.pt
+2021/08/17 00:51:41 - INFO - evaluate - Use single gpu in: ['0']
+2021/08/17 00:51:53 - INFO - evaluate - SubObj-model(/home/guest/Rootpath/model/Bert_SubObj/Model_0_0_2/checkpoint-330/model.pt): TP: 1300  FP: 82  FN: 792
+2021/08/17 00:51:53 - INFO - evaluate - SubObj-model(/home/guest/Rootpath/model/Bert_SubObj/Model_0_0_2/checkpoint-330/model.pt): In start threshold: 0.5; end threshold: 0.5
+
+2021/08/17 00:51:53 - INFO - evaluate - SubObj-model(/home/guest/Rootpath/model/Bert_SubObj/Model_0_0_2/checkpoint-330/model.pt): [MIRCO] precision: 0.9407, recall: 0.6214, f1: 0.7484
+
+2021/08/17 00:51:53 - INFO - evaluate - SubObj-model(/home/guest/Rootpath/model/Bert_SubObj/Model_0_0_2/checkpoint-330/model.pt): Zero pred nums: 163
+2021/08/17 00:51:53 - INFO - evaluate - now model path is /home/guest/Rootpath/model/Bert_SubObj/Model_0_0_2/checkpoint-495/model.pt
+2021/08/17 00:51:56 - INFO - evaluate - Use single gpu in: ['0']
+2021/08/17 00:52:09 - INFO - evaluate - SubObj-model(/home/guest/Rootpath/model/Bert_SubObj/Model_0_0_2/checkpoint-495/model.pt): TP: 1230  FP: 96  FN: 865
+2021/08/17 00:52:09 - INFO - evaluate - SubObj-model(/home/guest/Rootpath/model/Bert_SubObj/Model_0_0_2/checkpoint-495/model.pt): In start threshold: 0.5; end threshold: 0.5
+
+2021/08/17 00:52:09 - INFO - evaluate - SubObj-model(/home/guest/Rootpath/model/Bert_SubObj/Model_0_0_2/checkpoint-495/model.pt): [MIRCO] precision: 0.9276, recall: 0.5871, f1: 0.7191
+
+2021/08/17 00:52:09 - INFO - evaluate - SubObj-model(/home/guest/Rootpath/model/Bert_SubObj/Model_0_0_2/checkpoint-495/model.pt): Zero pred nums: 141
+2021/08/17 00:52:09 - INFO - evaluate - now model path is /home/guest/Rootpath/model/Bert_SubObj/Model_0_0_2/checkpoint-660/model.pt
+2021/08/17 00:52:11 - INFO - evaluate - Use single gpu in: ['0']
+2021/08/17 00:52:24 - INFO - evaluate - SubObj-model(/home/guest/Rootpath/model/Bert_SubObj/Model_0_0_2/checkpoint-660/model.pt): TP: 1219  FP: 74  FN: 879
+2021/08/17 00:52:24 - INFO - evaluate - SubObj-model(/home/guest/Rootpath/model/Bert_SubObj/Model_0_0_2/checkpoint-660/model.pt): In start threshold: 0.5; end threshold: 0.5
+
+2021/08/17 00:52:24 - INFO - evaluate - SubObj-model(/home/guest/Rootpath/model/Bert_SubObj/Model_0_0_2/checkpoint-660/model.pt): [MIRCO] precision: 0.9428, recall: 0.5810, f1: 0.7190
+
+2021/08/17 00:52:24 - INFO - evaluate - SubObj-model(/home/guest/Rootpath/model/Bert_SubObj/Model_0_0_2/checkpoint-660/model.pt): Zero pred nums: 164
+2021/08/17 00:52:24 - INFO - evaluate - now model path is /home/guest/Rootpath/model/Bert_SubObj/Model_0_0_2/checkpoint-825/model.pt
+2021/08/17 00:52:27 - INFO - evaluate - Use single gpu in: ['0']
+2021/08/17 00:52:41 - INFO - evaluate - SubObj-model(/home/guest/Rootpath/model/Bert_SubObj/Model_0_0_2/checkpoint-825/model.pt): TP: 1274  FP: 99  FN: 824
+2021/08/17 00:52:41 - INFO - evaluate - SubObj-model(/home/guest/Rootpath/model/Bert_SubObj/Model_0_0_2/checkpoint-825/model.pt): In start threshold: 0.5; end threshold: 0.5
+
+2021/08/17 00:52:41 - INFO - evaluate - SubObj-model(/home/guest/Rootpath/model/Bert_SubObj/Model_0_0_2/checkpoint-825/model.pt): [MIRCO] precision: 0.9279, recall: 0.6072, f1: 0.7341
+
+2021/08/17 00:52:41 - INFO - evaluate - SubObj-model(/home/guest/Rootpath/model/Bert_SubObj/Model_0_0_2/checkpoint-825/model.pt): Zero pred nums: 138
+2021/08/17 00:52:41 - INFO - evaluate - now model path is /home/guest/Rootpath/model/Bert_SubObj/Model_0_0_2/checkpoint-990/model.pt
+2021/08/17 00:52:43 - INFO - evaluate - Use single gpu in: ['0']
+2021/08/17 00:52:57 - INFO - evaluate - SubObj-model(/home/guest/Rootpath/model/Bert_SubObj/Model_0_0_2/checkpoint-990/model.pt): TP: 1243  FP: 89  FN: 855
+2021/08/17 00:52:57 - INFO - evaluate - SubObj-model(/home/guest/Rootpath/model/Bert_SubObj/Model_0_0_2/checkpoint-990/model.pt): In start threshold: 0.5; end threshold: 0.5
+
+2021/08/17 00:52:57 - INFO - evaluate - SubObj-model(/home/guest/Rootpath/model/Bert_SubObj/Model_0_0_2/checkpoint-990/model.pt): [MIRCO] precision: 0.9332, recall: 0.5925, f1: 0.7248
+
+2021/08/17 00:52:57 - INFO - evaluate - SubObj-model(/home/guest/Rootpath/model/Bert_SubObj/Model_0_0_2/checkpoint-990/model.pt): Zero pred nums: 149
+2021/08/17 00:52:57 - INFO - evaluate - now model path is /home/guest/Rootpath/model/Bert_SubObj/Model_0_0_2/checkpoint-100000/model.pt
+2021/08/17 00:53:00 - INFO - evaluate - Use single gpu in: ['0']
+2021/08/17 00:53:14 - INFO - evaluate - SubObj-model(/home/guest/Rootpath/model/Bert_SubObj/Model_0_0_2/checkpoint-100000/model.pt): TP: 1331  FP: 83  FN: 762
+2021/08/17 00:53:14 - INFO - evaluate - SubObj-model(/home/guest/Rootpath/model/Bert_SubObj/Model_0_0_2/checkpoint-100000/model.pt): In start threshold: 0.5; end threshold: 0.5
+
+2021/08/17 00:53:14 - INFO - evaluate - SubObj-model(/home/guest/Rootpath/model/Bert_SubObj/Model_0_0_2/checkpoint-100000/model.pt): [MIRCO] precision: 0.9413, recall: 0.6359, f1: 0.7591
+
+2021/08/17 00:53:14 - INFO - evaluate - SubObj-model(/home/guest/Rootpath/model/Bert_SubObj/Model_0_0_2/checkpoint-100000/model.pt): Zero pred nums: 111

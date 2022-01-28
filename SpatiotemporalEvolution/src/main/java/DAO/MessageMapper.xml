@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="DAO.MessageMapper">
+    <!--保存一条消息-->
+    <insert id="save" parameterType="Entity.Message">
+        insert into military_events.Message(Messageid,Senderid,Newsid,Content,Catelogid,DATE)
+        values (#{Messageid},#{Senderid},#{Newsid},#{Content},#{Catelogid},#{DATE});
+    </insert>
+    <!--删除一条消息-->
+    <delete id="delete" parameterType="int">
+        delete from military_events.Message where Messageid=#{Messageid};
+    </delete>
+    <!--查询用户收到的消息列表-->
+    <select id="findAll" resultType="Entity.Message">
+        select * from military_events.Message
+    </select>
+    <!--根据短信息id查一条短信息-->
+    <select id="findMessageByID" resultType="Entity.Message" parameterType="int">
+        select * from military_events.Message
+        where Messageid=#{Messageid}
+    </select>
+    <!--根据用户查找消息列表-->
+    <select id="findByUser" resultType="Entity.Message" parameterType="int">
+        select * from military_events.Message
+        where Senderid=#{Senderid}
+    </select>
+
+</mapper>

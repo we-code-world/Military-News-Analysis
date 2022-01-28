@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SqlDialectMappings">
+    <file url="file://$PROJECT_DIR$/utils/database/create.py" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/utils/database/delete.py" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/utils/database/read.py" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/utils/database/write.py" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/utils/event/EventFormat.py" dialect="MySQL" />
+  </component>
+</project>
